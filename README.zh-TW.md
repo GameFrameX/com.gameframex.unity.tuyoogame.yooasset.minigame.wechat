@@ -39,17 +39,38 @@ GameFrameX 的 YooAsset 微信小遊戲運行時組件，面向 Unity WebGL 平�
 - 條件編譯：WECHATMINIGAME
 - 依賴：YooAsset、StarkWebGL、WXWebGL
 
-## 安裝方式（任選其一）
+## 安裝
 
-1. 在 `manifest.json` 的 `dependencies` 中添加
-   ```json
-   {
-     "com.gameframex.unity.tuyoogame.yooasset.minigame.wechat": "https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.wechat.git"
-   }
-   ```
-2. 在 Unity 的 Package Manager 使用 Git URL 添加
-   https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.wechat.git
-3. 直接下載倉庫放到 Unity 項目的 `Packages` 目錄
+### 安裝
+
+編輯 Unity 專案的 `Packages/manifest.json`，添加 `scopedRegistries` 部分：
+
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "GameFrameX",
+      "url": "https://gameframex.upm.alianblank.uk",
+      "scopes": [
+        "com.gameframex"
+      ]
+    }
+  ]
+}
+```
+
+`scopes` 控制哪些套件透過此註冊表解析。只有以 `com.gameframex` 開頭的套件才會從這個註冊表取得。
+
+Then add the package to `dependencies`:
+
+```json
+{
+  "dependencies": {
+    "com.gameframex.unity.tuyoogame.yooasset.minigame.wechat": "1.0.0"
+  }
+}
+```
+
 
 ## 使用說明
 
