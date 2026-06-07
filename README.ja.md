@@ -39,7 +39,9 @@ GameFrameX の YooAsset WeChat ミニゲームランタイムコンポーネン�
 - 条件コンパイル：WECHATMINIGAME
 - 依存関係：YooAsset、StarkWebGL、WXWebGL
 
-## インストール
+## クイックスタート
+
+### インストール
 
 ### インストール
 

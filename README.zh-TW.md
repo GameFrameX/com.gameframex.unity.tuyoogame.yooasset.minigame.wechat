@@ -39,7 +39,9 @@ GameFrameX 的 YooAsset 微信小遊戲運行時組件，面向 Unity WebGL 平�
 - 條件編譯：WECHATMINIGAME
 - 依賴：YooAsset、StarkWebGL、WXWebGL
 
-## 安裝
+## 快速開始
+
+### 安裝
 
 ### 安裝
 
@@ -72,7 +74,7 @@ Then add the package to `dependencies`:
 ```
 
 
-## 使用說明
+## 使用範例
 
 1. 確保已接入微信小遊戲 SDK，並啟用 `WECHATMINIGAME` 宏
 2. 通過 `WechatFileSystemCreater.CreateFileSystemParameters(...)` 生成文件系統參數

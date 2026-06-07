@@ -39,7 +39,9 @@ GameFrameX의 YooAsset WeChat 미니게임 런타임 컴포넌트로, Unity WebG
 - 조건부 컴파일: WECHATMINIGAME
 - 의존성: YooAsset, StarkWebGL, WXWebGL
 
-## 설치
+## 빠른 시작
+
+### 설치
 
 ### 설치
 
