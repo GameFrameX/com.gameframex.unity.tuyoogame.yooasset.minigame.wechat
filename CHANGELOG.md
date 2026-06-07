@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.wechat/compare/1.0.0...1.0.1) (2026-06-07)
+
+
+### Bug Fixes
+
+* 统一 LICENSE.md 为 Apache 2.0 标准完整文本 ([902d1af](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.wechat/commit/902d1affdfef8b7bbb1959d659ff31a47ddb37ad))
+* 补全包规范文件（LICENSE/CHANGELOG/URL 字段/unity 字段） ([4a4a065](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.wechat/commit/4a4a06533469f960936f24bc601960b19cf5315a))
+
 # 1.0.0 (2026-03-05)
 
 
