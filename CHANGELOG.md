@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.wechat/compare/1.0.1...1.0.2) (2026-07-30)
+
+
+### Bug Fixes
+
+* 更新依赖项 com.gameframex.unity.tuyoogame.yooasset 至 2.9.4 ([1805239](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.wechat/commit/180523995e78d5866c5584302af63047d071842b))
+
 ## [1.0.1](https://github.com/gameframex/com.gameframex.unity.tuyoogame.yooasset.minigame.wechat/compare/1.0.0...1.0.1) (2026-06-07)
 
 
